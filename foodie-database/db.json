@@ -1,0 +1,363 @@
+{
+  "best_products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Salad Buah",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "salad.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Es Jeruk Segar",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "es-jeruk.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Mie Goreng",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Nasi Ayam Geprek",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-geprek.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Bakso",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Kentang Goreng",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Salad Buah",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "salad.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Mie Ayam Bakso",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Goreng",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Nasi Ayam Geprek",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-geprek.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Nasi Goreng Telur",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Sandwich",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "sandwich.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Sate Ayam",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Es Teh Manis",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "es-teh.jpeg"
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Milk Tea",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "milktea.jpg"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Es Jeruk Segar",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "es-jeruk.jpg"
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "nama": "Mmei",
+      "noMeja": "3",
+      "carts": [
+        {
+          "jumlah_order": "4",
+          "products": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Nasi Rames",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg"
+          },
+          "id": 3
+        },
+        {
+          "jumlah_order": "2",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Lontong Opor",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg"
+          },
+          "id": 4
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "Mei",
+      "noMeja": "2",
+      "carts": [
+        {
+          "jumlah_order": "4",
+          "products": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Nasi Rames",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg"
+          },
+          "id": 3
+        },
+        {
+          "jumlah_order": "2",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Lontong Opor",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg"
+          },
+          "id": 4
+        },
+        {
+          "jumlah_order": "3",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Kentang Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "kentang-goreng.jpg"
+          },
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "meong",
+      "noMeja": "5",
+      "carts": [
+        {
+          "jumlah_order": "2",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Kentang Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "kentang-goreng.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "Mei",
+      "noMeja": "5",
+      "carts": [
+        {
+          "jumlah_order": "1",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Kentang Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "kentang-goreng.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_order": "1",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Salad Buah",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "salad.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_order": "2",
+          "keterangan": "Tanpa Boba",
+          "products": {
+            "id": 11,
+            "kode": "K-11",
+            "nama": "Milk Tea",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "milktea.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nama": "MEI",
+      "noMeja": "3",
+      "carts": [
+        {
+          "jumlah_order": "2",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Salad Buah",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "salad.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_order": "1",
+          "keterangan": "Tidak pedas",
+          "products": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Nasi Goreng Telur",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_order": "1",
+          "products": {
+            "id": 12,
+            "kode": "K-12",
+            "nama": "Es Jeruk Segar",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "es-jeruk.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nama": "Mei",
+      "noMeja": "4",
+      "carts": [
+        {
+          "jumlah_order": "2",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Salad Buah",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "salad.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_order": "1",
+          "keterangan": "tidak pedas",
+          "products": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Nasi Goreng Telur",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_order": "1",
+          "keterangan": "",
+          "products": {
+            "id": 12,
+            "kode": "K-12",
+            "nama": "Es Jeruk Segar",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "es-jeruk.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+#app{
+      font-family: 'Poppins',
+      sans-serif;
+}
+.router-link-exact-active{
+      font-weight: bold;
+}
+.btn-primary{
+      background-color: #2f4f4f;
+}
+.card-product{
+      border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+}
+.card-body{
+       border-bottom-left-radius: 40px;
+}
+.card-img-top{
+      border-top-right-radius: 40px;
+      
+}
+.breadcrumb{
+      float: right;
+}
+.breadcrumb-item.active{
+      font-weight: bold;
+      color: black;
+}
+.img-fluid{
+      border-radius: 10px;
+}
+.footer{
+      background-color: #e1f1dd;
+      font-weight: bold;
+}
+.background{
+      background-color:#d9dab0;
+      margin: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+}
